@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import api from "./Api.js"
+import api from "../utils/Api.js"
 import Card from "./Card";
 import pen from "../images/logo/pen.svg";
 import krest from "../images/logo/krest.svg"
@@ -34,10 +34,10 @@ function Main(props) {
                 <button type="button" className="profile__add-button" title="Добавить новую фотографию" onClick={props.onAddPlace}><img src={krest} alt="добавить" className="profile__add-button-image"/></button>
         </section>
       <section className="elements">
-          {cards.map((card, id) => (
+          {cards.map((card) => (
             <Card
-              key={id}
               card={card}
+              key={card._id}
               link={card.link}
               name={card.name}
               likes={card.likes.length}

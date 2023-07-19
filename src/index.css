@@ -66,6 +66,7 @@
 @import url(./blocks/card-open/__button/card-open__button.css);
 @import url(./blocks/card-open/__image/card-open__image.css);
 @import url(./blocks/card-open/__label/card-open__label.css);
+@import url(./blocks/card-open/__overlay/card-open__overlay.css);
 
 /*AVATAR-POPUP*/
 @import url(./blocks/avatar-popup/avatar-popup.css);
