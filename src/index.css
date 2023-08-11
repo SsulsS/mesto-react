@@ -30,6 +30,7 @@
 /*ELEMENT*/
 @import url(./blocks/element/element.css);
 @import url(./blocks/element/__delite/element__delite.css);
+@import url(./blocks/element/__delite/_visible/element__delite_visible.css);
 @import url(./blocks/element/__place-photo/element__place-photo.css);
 @import url(./blocks/element/__place/element__place.css);
 @import url(./blocks/element/__place-name/element__place-name.css);
