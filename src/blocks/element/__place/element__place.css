@@ -1,7 +1,8 @@
 .element__place{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px;
     align-items: center;
     margin: 25px 0 31px 0;
 }
