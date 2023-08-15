@@ -78,6 +78,7 @@ function App() {
     }).catch((err) => {
       console.error(err);
     });
+    console.log(data);
   }
 
   function handleEditAvatarClick() {
@@ -125,7 +126,6 @@ function App() {
 
   return (
     <CurrentUserContext.Provider value={currentUser}>
-      <div className="page">
         <div className="page__content">
           <Header />
           <Main 
@@ -166,7 +166,6 @@ function App() {
             onClose={closeAllPopups}
           />
         </div>
-      </div>
     </CurrentUserContext.Provider>
   );
 }

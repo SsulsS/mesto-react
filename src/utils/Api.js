@@ -75,16 +75,17 @@ class Api {
       method: 'PATCH',
       headers: this._headers,
       body: JSON.stringify({
-        avatar: data.avatar_link
+        avatar: data.avatar_link,
       })
     }).then(this._checkResponse);
+    
   }
 }
 const api = new Api({
-  baseUrl: 'https://mesto.nomoreparties.co/v1/cohort-29',
+  baseUrl: 'https://nomoreparties.co/v1/cohort-69',
   headers: {
-    authorization: '9a15705e-c3d0-477e-8f81-f6228da5acbc',
-    'Content-Type': 'application/json'
+    authorization: '3423936a-6f7a-4159-a41b-e171525532ad',
+    'Content-Type': 'application/json',
   }
 })
 export default api;
